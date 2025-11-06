@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <title>Taskin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./static/style.css">
+    <style>
+
+        .banner img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .banner h1 {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+        }
+
+        .novidades img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Taskin</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="clients.html">Clientes</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="orders.html">Ordens</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="banner text-center mb-4">
+    <img alt="Banner Ordem de Serviço" src="./static/banner.JPG"/>
+    <h1 class="mt-3">Bem-vindo ao Taskin</h1>
+    <p>Gerencie clientes, serviços e ordens de forma rápida e prática!</p>
+</div>
+<div class="row m-3 mb-5">
+    <div class="col-md-4">
+        <div class="card p-3 mb-3">
+            <h6>Clientes</h6>
+            <p class="display-6">001</p>
+            <a class="btn btn-sm btn-outline-primary" href="clients.html">Ver clientes</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3 mb-3">
+            <h6>Serviços</h6>
+            <p class="display-6">002</p>
+            <a class="btn btn-sm btn-outline-primary" href="services.html">Ver serviços</a>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3 mb-3">
+            <h6>Ordens</h6>
+            <p class="display-6">003</p>
+            <a class="btn btn-sm btn-outline-primary" href="orders.html">Ver ordens</a>
+        </div>
+    </div>
+</div>
+
+<section class="novidades my-5">
+    <h2 class="secao-titulo text-center mb-4">Novidades</h2>
+    <div class="novidades-inner d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+        <div class="imagem">
+            <img alt="Arquivo PDF" src="./static/PDF.png"/>
+        </div>
+        <div class="conteudo text-center text-md-start">
+            <h3>Agora o sistema ficou ainda mais completo!</h3>
+            <p>
+                Com a nova função de geração de relatórios em PDF, você pode salvar e compartilhar facilmente
+                as informações mais importantes sobre ordens e serviços. Essa novidade foi pensada para facilitar
+                o acompanhamento do seu trabalho, garantindo mais organização, praticidade e rapidez no dia a dia.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="feedback-section">
+    <h2 class="text-center mb-4">Feedback</h2>
+    <div class="feedback-container d-flex flex-wrap justify-content-center gap-4">
+        <div class="feedback-card text-center p-3 shadow">
+            <div class="feedback-avatar mx-auto mb-3"></div>
+            <h5>Fabiana Torrezan</h5>
+            <p class="stars">★★★★★</p>
+            <p>O site é muito fácil de usar, consegui gerar meu orçamento em poucos minutos. Achei tudo bem
+                organizado e rápido.</p>
+        </div>
+        <div class="feedback-card text-center p-3 shadow">
+            <div class="feedback-avatar mx-auto mb-3"></div>
+            <h5>Lucas Pereira</h5>
+            <p class="stars">★★★★★</p>
+            <p>Plataforma intuitiva e prática! Facilitou muito a gestão de serviços na minha empresa.</p>
+        </div>
+        <div class="feedback-card text-center p-3 shadow">
+            <div class="feedback-avatar mx-auto mb-3"></div>
+            <h5>Juliana</h5>
+            <p class="stars">★★★★★</p>
+            <p>Simples, bonito e funcional. Recomendo para quem quer agilidade no dia a dia!</p>
+        </div>
+        <div class="feedback-card text-center p-3 shadow">
+            <div class="feedback-avatar mx-auto mb-3"></div>
+            <h5>Alves</h5>
+            <p class="stars">★★★★★</p>
+            <p>Simples, bonito e funcional. Recomendo para quem quer agilidade no dia a dia!</p>
+        </div>
+    </div>
+</section>
+<footer class="footer mt-5">
+    <div class="container text-center py-4">
+        <h5 class="fw-bold">Taskin</h5>
+        <p>Gerenciando com praticidade, rapidez e eficiência.</p>
+        <div class="footer-links mb-3">
+            <a href="index.html">Início</a> |
+            <a href="clients.html">Clientes</a> |
+            <a href="services.html">Serviços</a> |
+            <a href="orders.html">Ordens</a>
+        </div>
+        <p class="small mb-0">&copy; 2025 Taskin — Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>

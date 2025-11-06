@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>Sobre - Taskin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="static/style.css"/>
+    <style>
+        .banner img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .banner h1 {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        .valores i {
+            font-size: 40px;
+            color: #0d6efd;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Taskin</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="clients.html">Clientes</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="orders.html">Ordens</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">Sobre</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Banner -->
+<div class="banner text-center mb-4">
+    <img src="https://images.unsplash.com/photo-1560264357-8d9202250f21" alt="Equipe Taskin">
+    <h1 class="mt-3">Sobre o Taskin</h1>
+    <p>O sistema inteligente para gerenciar orçamentos, serviços e clientes de forma simples e eficiente.</p>
+</div>
+
+<!-- Missão e história -->
+<section class="sobre bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-3">Nossa História</h2>
+                <p>
+                    O <strong>Taskin</strong> nasceu da necessidade de pequenos e médios prestadores de serviço
+                    que queriam um jeito mais prático de controlar clientes, orçamentos e ordens de serviço
+                    sem complicação. Criado com foco em <strong>simplicidade</strong> e <strong>organização</strong>,
+                    o sistema ajuda você a ter mais controle e produtividade no dia a dia.
+                </p>
+                <p>
+                    Com atualizações constantes e recursos modernos como <strong>relatórios em PDF</strong> e
+                    <strong>cadastros inteligentes</strong>, o Taskin vem evoluindo para atender cada vez mais as
+                    necessidades
+                    de quem busca agilidade no gerenciamento de serviços.
+                </p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://images.unsplash.com/photo-1556761175-129418cb2dfe" alt="Equipe trabalhando"
+                     class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Valores e diferenciais -->
+<section class="valores">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Nossos Diferenciais</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <i class="bi bi-lightning-charge-fill"></i>
+                    <h5 class="mt-3">Rapidez</h5>
+                    <p>Processos automatizados que tornam o gerenciamento muito mais ágil.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <i class="bi bi-shield-lock-fill"></i>
+                    <h5 class="mt-3">Segurança</h5>
+                    <p>Seus dados são tratados com responsabilidade e protegidos contra perdas.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <i class="bi bi-people-fill"></i>
+                    <h5 class="mt-3">Facilidade</h5>
+                    <p>Interface intuitiva que qualquer pessoa pode usar sem precisar de treinamento.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Chamada final -->
+<section class="cta text-center py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <i class="bi bi-gear-fill text-primary" style="font-size: 3rem;"></i>
+        <h2 class="fw-bold text-dark mt-3">Simplifique sua gestão com o Taskin</h2>
+        <p class="text-muted mb-4">Organize seus orçamentos e ordens de serviço em um só lugar.</p>
+        <a href="services.html" class="btn btn-primary btn-lg">Ver Serviços</a>
+    </div>
+</section>
+
+
+
+<footer class="footer mt-5">
+    <div class="container text-center py-4">
+        <h5 class="fw-bold">Taskin</h5>
+        <p>Gerenciando com praticidade, rapidez e eficiência.</p>
+        <div class="footer-links mb-3">
+            <a href="index.html">Início</a> |
+            <a href="clients.html">Clientes</a> |
+            <a href="services.html">Serviços</a> |
+            <a href="orders.html">Ordens</a>
+        </div>
+        <p class="small mb-0">&copy; 2025 Taskin — Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Ícones do Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
