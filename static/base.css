@@ -1,0 +1,90 @@
+ body {
+    background-color: #f9f9f9;
+  }
+
+  /* Banner */
+  .banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .banner h1 {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .banner p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  /* Cards principais */
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  }
+
+  /* Novidades */
+  .novidades img {
+    max-width: 300px;
+    border-radius: 8px;
+  }
+
+  .novidades h3 {
+    font-weight: 600;
+  }
+
+  /* Feedback */
+  .feedback-section {
+    background-color: #fff;
+    border-top: 4px solid #800080; /* roxo elegante */
+  }
+
+  .feedback-container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .feedback-card {
+    background: #fff;
+    border-radius: 12px;
+    width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .feedback-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  }
+
+  .feedback-avatar {
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+
+  .stars {
+    color: #f5c518; /* amarelo das estrelas */
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .feedback-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .novidades-inner {
+      flex-direction: column;
+    }
+  }
